@@ -86,8 +86,8 @@ public class Vista extends JFrame {
     public Vista() {
         setTitle("Cafetería María");
         setContentPane(panel);
-        //ImageIcon img = new ImageIcon("./assets/coffee-beans.png");
-        //frame.setIconImage(img.getImage());
+        ImageIcon img = new ImageIcon("./assets/coffee-beans.png");
+        setIconImage(img.getImage());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pack();
         setVisible(true);
